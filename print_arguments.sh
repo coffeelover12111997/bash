@@ -6,7 +6,7 @@
 args=("$@")
 len=$#
 
- Traditional way of looping
+# Traditional way of looping
 for ((i = 0; i < len; i++)); do
     echo "${args[i]}"
 done
