@@ -2,7 +2,7 @@
 
 # This script will print all the arguments passed to the script.
 
-# This will convert the string into an array with space as seperator
+# This will convert the string into an array with space as separator
 args=("$@")
 len=$#
 
