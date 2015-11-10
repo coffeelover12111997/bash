@@ -1,7 +1,8 @@
+#!/bin/bash
 # Bash File Testing
 
 # Test whether a file exists which is passed as argument
-file = "$1"
+file="./file"
 if [ -e $file ]; then
     echo "File exists."
 else
